@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Black Oak Coffee Survey</title>
+</head>
+<body>
+  <header>
+    <h1 id="title">Black Oak Coffee Survey</h1>
+    <p id="description"><em>Thank you for helping us improve our coffee!</em></p>
+  </header>
+  <form id="survey-form">
+    <div class="name">
+      <label id="name-label">Name:</label>
+      <input id="name" type="text" placeholder="Enter your full name" required>
+    </div>
+
+    <div class="email">
+      <label id="email-label">Email:</label>
+      <input id="email" type="email" placeholder="Enter your email" required>
+    </div>
+
+    <div class="number">
+      <label id="number-label">Age:</label>
+      <input id="number" type="number" min="13" max="120" placeholder="Age" required>
+    </div>
+
+    <div class="coffee">
+      <label id="coffee-label">What is your favourite coffee?</label>
+      <select id="dropdown">
+        <option disabled selected value="">Select an option</option>
+        <option value="1">Cappuccino</option>
+        <option value="2">Macchiato</option>
+        <option value="3">Americano</option>
+        <option value="4">Espresso</option>
+        <option value="5">Mocha</option>
+      </select>
+    </div>
+
+    <div class="recommendation">
+      <label id="recommendation-label">Would you recommend Black Oak Coffee to a friend?</label>
+      <input type="radio" name="recommendation" value="yes"> Yes
+      <input type="radio" name="recommendation" value="maybe"> Maybe
+      <input type="radio" name="recommendation" value="no"> No
+    </div>
+
+    <div class="improvement">
+      <label id="improvement-label">What do you want to see improved?</label>
+      <input id="coffee" type="checkbox" value="coffee"> Our Coffee
+      <input id="staff" type="checkbox" value="staff"> Our Staff
+      <input id="service" type="checkbox" value="service"> Our Service
+      <input id="shop" type="checkbox" value="shop"> Our Shop
+    </div>
+
+    <div class="comments">
+      <label id="comment-label">Any additional comments?</label>
+      <textarea rows="5" cols="50"></textarea>
+    </div>
+
+    <div class="submit">
+      <input id="submit" type="submit" value="Submit">
+    </div>
+  </form>
+</body>
+</html>

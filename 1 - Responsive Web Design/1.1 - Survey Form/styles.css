@@ -1,0 +1,39 @@
+body {
+    background-color: #1A1C2C;
+    color: white;
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1, p {
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+    text-align: center
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+form {
+    background-color: #2e314a32;
+    padding: 2.5rem;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+}
+
+input, select, textarea {
+    margin-bottom: 1rem;
+}
+
+input, textarea, select {
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+}
