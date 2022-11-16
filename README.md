@@ -7,7 +7,7 @@
 ### ✔️ 1.1 - Survey Form
  Build a survey form to collect data from your users.
 
-### ❌ 1.2 - Tribute Page
+### ✔️ 1.2 - Tribute Page
  Build a tribute page for a subject of your choosing, fictional or real.
 
 ### ❌ 1.3 - Technical Documentation Page
