@@ -10,7 +10,7 @@
 ### ✔️ 1.2 - Tribute Page
  Build a tribute page for a subject of your choosing, fictional or real.
 
-### ❌ 1.3 - Technical Documentation Page
+### ✔️ 1.3 - Technical Documentation Page
  Build a technical documentation page to serve as instruction or reference for a topic.
 
 ### ❌ 1.4 - Product Landing Page

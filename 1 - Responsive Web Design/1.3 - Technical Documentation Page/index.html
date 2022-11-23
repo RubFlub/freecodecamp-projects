@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>HTML Documentation</title>
+</head>
+<body>
+    <nav id="navbar"> 
+        <header id="nav-header">HTML Documentation</header>
+        <ul id="nav-list">
+            <li>
+                <a class="nav-link" href="#Introduction">Introduction</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Elements">Elements</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Attributes">Attributes</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Headings">Headings</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Paragraphs">Paragraphs</a>
+            </li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>HTML is the standard markup language for creating Web pages.</p>
+            <p>HTML, or Hyper Text Markup Language:</p>
+            <ul>
+                <li>Describes the structure of a Web page.</li>
+                <li>Consists of a series of elements.</li>
+                <li>Tell the browser how to display the content.</li>
+                <li>Label pieces of content.</li>
+            </ul>
+            <p>A HTML Document looks like the following:</p>
+            <code>
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                &lt;head&gt;<br>
+                &lt;title&gt;Page Title&lt;/title&gt;<br>
+                &lt;/head&gt;<br>
+                &lt;body&gt;<br>
+                <br> 
+                &lt;h1&gt;My First Heading&lt;/h1&gt;<br>
+                &lt;p&gt;My first paragraph.&lt;/p&gt;<br>
+                <br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;
+            </code>
+        </section>
+        <section class="main-section" id="Elements">
+            <header>Elements</header>
+            <p>A HTML element is defined by a start tag, some content, and an end tag.</p>
+            <code>&lt;tagname&gt; Content goes here... &lt;tagname&gt;</code>
+            <p>Some elements include:</p>
+            <ul>
+                <li>The &lt;h1&gt; element, for headings.</li>
+                <li>The &lt;p&gt; element, for paragraphs.</li>
+                <li>The &lt;br&gt; element, for line breaks.</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Attributes">
+            <header>Attributes</header>
+            <p>HTML attributes provide additional information about HTML elements</p>
+            <ul>
+                <li>All HTML elements can have attributes.</li>
+                <li>Attributes provide additional information about elements.</li>
+                <li>Attributes are always specified in the start tag.</li>
+                <li>Attributes usually come in name / value pairs, i.e. name="value"</li>
+            </ul>
+            <p>The following shows a href attribute:</p>
+            <code>&lt;a href="https://www.w3schools.com"&gt;Visit W3Schools&lt;/a&gt;</code>
+        </section>
+        <section class="main-section" id="Headings">
+            <header>Headings</header>
+            <p>HTML headings are defined with h1 to h6 tags.</p>
+            <code>
+                &lt;h1&gt;Heading 1&lt;/h1&gt;<br>
+                &lt;h2&gt;Heading 2&lt;/h2&gt;<br>
+                &lt;h3&gt;Heading 3&lt;/h3&gt;<br>
+                &lt;h4&gt;Heading 4&lt;/h4&gt;<br>
+                &lt;h5&gt;Heading 5&lt;/h5&gt;<br>
+                &lt;h6&gt;Heading 6&lt;/h6&gt;
+            </code>
+        </section>
+        <section class="main-section" id="Paragraphs">
+            <header>Paragraphs</header>
+            <p>A paragraph always starts on a new line, and is usually a block of text.</p>
+            <p>The HTML p element defines a paragraph.</p>
+            <p>A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.</p>
+            <code>
+                &lt;p&gt;This is a paragraph.&lt;/p&gt;<br>
+                &lt;p&gt;This is another paragraph.&lt;/p&gt;
+            </code>
+        </section>
+    </main>
+</body>
+</html>
