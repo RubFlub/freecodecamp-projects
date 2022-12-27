@@ -13,7 +13,7 @@
 ### ✔️ 1.3 - Technical Documentation Page
  Build a technical documentation page to serve as instruction or reference for a topic.
 
-### ❌ 1.4 - Product Landing Page
+### ✔️ 1.4 - Product Landing Page
  Build a product landing page to market a product of your choice.
 
 ### ❌ 1.5 - Personal Portfolio Page
