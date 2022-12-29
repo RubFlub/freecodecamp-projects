@@ -1,0 +1,125 @@
+:root {
+    --ruby: #A63446;
+    --white: #FBFEF9;
+    --blue: #0C6291;
+    --black: #000004;
+}
+
+body {
+    margin: 7.5vh 0 0 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    background: linear-gradient(45deg, var(--black), var(--white));
+    background-size: 400%;
+}
+
+header {
+    background-color: var(--ruby);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7.5vh;
+    position: fixed;
+    overflow: hidden;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.navbar a {
+    display: block;
+    font-size: 2vh;
+    padding: 2.75vh;
+    color: var(--white);
+}
+
+.navbar a:hover {
+    background-color: var(--blue);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    font-family: 'Cabin';
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        justify-content: center;
+    }
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.welcome p {
+    font-size: 2em;
+    font-style: italic;
+    color: var(--white);
+}
+
+.welcome h1 {
+    font-size: 5em;
+    color: var(--white);
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--blue);
+    width: 100%;
+    height: 180vh;
+    gap: 5vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box {
+    width: 50vh;
+    height: 50vh;
+}
+
+.box .icon {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.project-tile {
+    color: var(--white);
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    gap: 1em;
+    background-color: var(--white);
+    color: var(--black);
+}

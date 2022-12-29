@@ -16,5 +16,5 @@
 ### ✔️ 1.4 - Product Landing Page
  Build a product landing page to market a product of your choice.
 
-### ❌ 1.5 - Personal Portfolio Page
+### ✔️ 1.5 - Personal Portfolio Page
  Build your own personal portfolio page.
